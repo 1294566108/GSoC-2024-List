@@ -1,0 +1,24 @@
+- Target
+With the launch of RocketMQ 5.0 architecture, the RocketMQ Dashboard has not been well adapted to RocketMQ 5.0. There have been issues with Dashboard being unable to create various themes for V5, lack of support for Proxy components, and incorrect master-slave synchronization metrics. Therefore, we need to adapt the RocketMQ Dashboard to the RocketMQ 5.0 architecture in this project to enhance its usability.
+
+- Merged PR：
+https://github.com/apache/rocketmq-dashboard/pull/198 
+1.Support V4&V5 switch for user
+2.Support query for V5 topic in diffrent messageType
+
+https://github.com/apache/rocketmq-dashboard/pull/204
+1.Support FIFO-Type subscriptionGroup Query for RocketMQ 5.X
+2.Support FIFO-Type subscriptionGroup Add & Update for RocketMQ 5.X
+
+https://github.com/apache/rocketmq-dashboard/pull/207
+1.Support agent module to realize the new addition and query functions of proxy nodes
+2.Fixed the situation where the display of consumerGroup subscription group information is incomplete or incorrect (such as failure to view consumption details, incorrect number of clients in the subscription group, etc.）issue193、issue199、issue195
+
+https://github.com/apache/rocketmq-dashboard/pull/208
+1.Supplement userGuide.md for RocketMQ 5.0 in en & cn
+
+https://github.com/apache/rocketmq-dashboard/pull/222
+1.Fixed the problem that ordinary messages are not displayed in the V4 version
+
+https://github.com/apache/rocketmq-dashboard/pull/223
+1.Supports new, updated and query functions for unspecified topic types
