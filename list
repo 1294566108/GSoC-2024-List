@@ -1,6 +1,9 @@
 - Target
 With the launch of RocketMQ 5.0 architecture, the RocketMQ Dashboard has not been well adapted to RocketMQ 5.0. There have been issues with Dashboard being unable to create various themes for V5, lack of support for Proxy components, and incorrect master-slave synchronization metrics. Therefore, we need to adapt the RocketMQ Dashboard to the RocketMQ 5.0 architecture in this project to enhance its usability.
 
+- Student Ziwei Yuan
+- Mentors Rongtong Jin
+
 - Merged PR：
 https://github.com/apache/rocketmq-dashboard/pull/198 
 1.Support V4&V5 switch for user
@@ -22,3 +25,21 @@ https://github.com/apache/rocketmq-dashboard/pull/222
 
 https://github.com/apache/rocketmq-dashboard/pull/223
 1.Supports new, updated and query functions for unspecified topic types
+
+- Timeline:
+May 1st ~ May 27th: Provide query capabilities that support topics of different message types
+May 27th ~ June 30th: Solve the adaptation problem of v5 version in proxy mode and provide a GRPC based proxy request solution
+July 1st ~ July 12th: Provide front-end support to verify interface availability and compatibility with v4/v5 versions
+July 12th ~ August 15th: Improve compatibility and interface exceptions, modify and improve code
+August 15th ~ August 26th: There is spare power to solve more anomalies on the community dashboard
+
+- Any challenges or important things I learned during the project：
+1. Challenges and Solutions:
+Understanding Project Requirements: Initially, I had some ambiguities regarding the project’s requirements and expectations. To better understand them, I had multiple discussions with my mentor and thoroughly read relevant documentation and code. This approach helped clarify the goals and formulate a clear plan.
+Technical Issues: I encountered technical difficulties while implementing certain features, such as compatibility issues with existing code. To address these problems, I reviewed extensive documentation, participated in community discussions, and conducted experiments. These experiences not only enhanced my technical skills but also improved my problem-solving abilities.
+Time Management: The tight schedule of GSoC, especially in the later stages of the project, was challenging. To manage my time effectively, I created a detailed work plan and set priorities. These time management skills have been beneficial for my future work as well.
+
+2. Key Learnings:
+Collaboration in Open Source Communities: Interacting with the open source community made me deeply appreciate the importance of teamwork. Learning to communicate and collaborate within the community was crucial for the project’s success.
+Coding and Documentation: Alongside coding, I learned the importance of writing high-quality documentation. This not only helps others understand my code but also improved my documentation skills.
+Project Management Skills: The GSoC experience improved my project management skills, including requirement analysis, task allocation, and progress tracking. These skills are invaluable for future work and project management.
